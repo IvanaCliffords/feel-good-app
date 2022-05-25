@@ -1,0 +1,76 @@
+.quote-container {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  flex-direction: column;
+  width: 100%;
+  min-height: 40vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 17px;
+  margin-inline: auto;
+}
+.quote-par {
+  font-family: "Roboto Flex", sans-serif !important;
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+  padding: 1em;
+}
+.card-footer {
+  display: flex;
+  width: 80%;
+  margin-inline: auto;
+  margin-bottom: 1em;
+}
+
+.main-btn {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px auto;
+  height: 50px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #d4fc79,
+    #96e6a1,
+    #40e495,
+    #b2b2fc
+  );
+  box-shadow: 0 4px 15px 0 #96e6a1;
+}
+
+.main-btn:hover {
+  background-position: 100% 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.main-btn:focus {
+  outline: none;
+}
+
+.main-btn-clear {
+  background-color: #fff !important;
+  border: 2px solid #96e6a1;
+  background-image: none;
+  color: #96e6a1;
+  height: 40px;
+}
+.main-btn-clear:hover {
+  background-color: #fff !important;
+}
+
+@media (min-width: 980px) {
+  .quote-container {
+    width: 40vw;
+    margin-inline: auto;
+  }
+}

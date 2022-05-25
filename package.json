@@ -1,0 +1,21 @@
+{
+  "name": "feel-good-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanaCliffords/feel-good-app.git"
+  },
+  "author": "Ivana Cliffords",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanaCliffords/feel-good-app/issues"
+  },
+  "homepage": "https://github.com/IvanaCliffords/feel-good-app#readme"
+}

@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/IvanaCliffords/feel-good-app/issues"
   },
-  "homepage": "https://github.com/IvanaCliffords/feel-good-app#readme"
+  "homepage": "https://github.com/IvanaCliffords/feel-good-app#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
 }

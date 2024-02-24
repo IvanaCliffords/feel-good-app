@@ -3,12 +3,12 @@
   grid-template-rows: 3fr 1fr;
   flex-direction: column;
   width: 100%;
-  min-height: 40vh;
+  /* min-height: 40vh; */
   align-items: center;
   justify-content: center;
   background-color: #fff;
   border-radius: 17px;
-  margin-inline: auto;
+  /* margin-inline: auto; */
 }
 .quote-par {
   font-family: "Roboto Flex", sans-serif !important;
@@ -68,9 +68,31 @@
   background-color: #fff !important;
 }
 
-@media (min-width: 980px) {
+/* @media (min-width: 980px) {
   .quote-container {
     width: 40vw;
     margin-inline: auto;
   }
+} */
+
+.first-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: end;
+  margin: 50px 0;
+}
+
+.MuiPaper-elevation0 {
+  box-shadow: none !important;
+  height: 300px !important;
+  display: grid !important;
+  place-content: center !important;
+}
+
+
+.custom-stepper {
+  box-shadow: unset !important;
+  height: unset !important;
+  display: unset !important;
+  place-content: unset !important;
 }
